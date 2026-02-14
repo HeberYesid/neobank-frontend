@@ -35,6 +35,11 @@ const Login = () => {
                     </div>
                     <CardTitle className="text-2xl font-bold">Bienvenido de nuevo</CardTitle>
                     <p className="text-sm text-muted-foreground">Ingresa tus credenciales para acceder</p>
+                    <div className="mt-4 p-3 bg-amber-50 border border-amber-200 rounded-lg">
+                        <p className="text-xs text-amber-700 text-center">
+                            🚀 <strong>Entorno de prueba:</strong> Puedes ingresar cualquier dato para probar la plataforma. No se requiere una cuenta real.
+                        </p>
+                    </div>
                 </CardHeader>
                 <CardContent>
                     <form onSubmit={handleSubmit} className="space-y-4">
